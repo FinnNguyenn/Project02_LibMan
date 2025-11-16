@@ -1,93 +1,118 @@
-# Project02_LibMan
+# 📚 LibMan – README
 
-This document provides setup instructions and describes the main features of the project.
-
-## 🚀 How to Run
-
-To run specific modules, you need to set the **Relative URL** in the project's Run configuration:
-
-* **Module: "Reader register as a reader card"**
-    * Right-click on the project -> **Properties** -> **Run**
-    * Set **Relative URL**: `./Reader/LoginView.jsp`
-
-* **Module: "Reader return documents"**
-    * Right-click on the project -> **Properties** -> **Run**
-    * Set **Relative URL**: `./Staff/LoginView.jsp`
+This document provides a clear overview of the project setup and the primary features of each module.
 
 ---
 
-## 🎨 UI Overview
+## 🚀 How to Run the Modules
 
-### 1. Module: "Reader register as a reader card"
+To run any specific module, configure the **Relative URL** in your project's **Run** settings.
 
-<img width="1917" height="924" alt="Screenshot 2025-11-16 220841" src="https://github.com/user-attachments/assets/9cd52255-3370-4843-9d66-96b866a88a91" />
+### ▶️ Module: Reader Register as a reader card
 
-<br>
-If the reader does not have an account or reader card, they can click "Register now" to navigate to the registration frame.
+1. Right‑click the project → **Properties**
+2. Navigate to **Run**
+3. Set **Relative URL** to:
 
-> 
+   ```
+   ./Reader/LoginView.jsp
+   ```
 
-<img width="1898" height="925" alt="Screenshot 2025-11-16 220855" src="https://github.com/user-attachments/assets/6d8e80e8-ccd7-484f-8539-5af1ae44ba97" />
+### ▶️ Module: Reader Return Documents
 
-<br>
-Includes fields for inputting information, a "Reset" button to clear all filled information, and a "Register" button to submit.
-*Note: All fields are required. Username and Student Code must be unique and can only be used once.*
+1. Right‑click the project → **Properties**
+2. Navigate to **Run**
+3. Set **Relative URL** to:
 
-> 
+   ```
+   ./Staff/LoginView.jsp
+   ```
 
-### 2. Module: "Reader return documents"
+---
 
-<img width="1918" height="928" alt="Screenshot 2025-11-16 221018" src="https://github.com/user-attachments/assets/88c76c3e-f911-4a87-a547-7ddf9eca114e" />
+## 🎨 User Interface Overview
 
+### 1. Reader Register as a reader card
 
-> 
+#### 🔐 Reader Login UI
 
-<img width="1917" height="923" alt="Screenshot 2025-11-16 221028" src="https://github.com/user-attachments/assets/cfcc1d5f-80d1-45ce-b404-e2faea697013" />
+If the reader does not yet have an account or reader card, they may click **"Register now"** to proceed to the registration interface.
 
-
-> 
-
-<img width="1916" height="923" alt="Screenshot 2025-11-16 221037" src="https://github.com/user-attachments/assets/e460bbf2-94e9-4f9b-82c4-fde4255c0924" />
-
-<br>
-The library staff enters the **Reader code** into the search bar and clicks "Find".
-
-> 
-
-<img width="1917" height="924" alt="Screenshot 2025-11-16 221046" src="https://github.com/user-attachments/assets/fc9cfc20-74ea-4c04-a364-d8bfb291aecf" />
-
-<br>
-The reader's information will be displayed below the "Find" button.
-
-> 
-
-<img width="1902" height="924" alt="Screenshot 2025-11-16 221055" src="https://github.com/user-attachments/assets/6d350930-b825-4ce9-bab9-5ed72364c49f" />
-
-<br>
-Displays all the books that the reader has borrowed and their status.
-
-> 
-
-<img width="1901" height="925" alt="Screenshot 2025-11-16 221109" src="https://github.com/user-attachments/assets/c784e38a-5f24-465f-8866-f148b2e58bb7" />
-
-<br>
-Displays each book and a list of predefined faults for the library staff to select if the book is damaged.
-
-> 
-
-**Invoice UI**
-<br>
-Shows the detailed invoice, including borrowing fees, potential fines, and the total amount due.
-
-> 
-
-[Image of Invoice]
+> <img width="1917" height="924" alt="Screenshot 2025-11-16 220841" src="https://github.com/user-attachments/assets/71531a62-d111-44d1-bf6b-2972a7cc0864" />
 
 
-**Payment UI**
-<br>
-A screen for the library staff to enter information about the payment type and any notes. Click "Submit payment" if the reader pays successfully.
+#### 📝 Reader Registration UI
 
-> 
+Includes fields to input personal details, a **Reset** button to clear all fields, and a **Register** button to submit the form.
 
-[Image of Payment]
+All fields are required.
+
+* **Username** and **Student Code** must be unique.
+* Each can only be used one time.
+
+> <img width="1898" height="925" alt="Screenshot 2025-11-16 220855" src="https://github.com/user-attachments/assets/85e3c2f2-f7c6-4b64-81a2-d05fe4a2067b" />
+
+
+---
+
+### 2. Reader Return Documents Module
+
+#### 🔐 Library Staff Login UI
+
+> <img width="1918" height="928" alt="Screenshot 2025-11-16 221018" src="https://github.com/user-attachments/assets/29798a2f-aa5d-439b-808b-a8b9c0b8162b" />
+
+
+#### 🏠 Library Staff Home UI
+
+> <img width="1917" height="923" alt="Screenshot 2025-11-16 221028" src="https://github.com/user-attachments/assets/f4a0cc41-3666-4399-8236-c1a290fd65ab" />
+
+
+#### 🔍 Find Reader UI
+
+Library staff enter the **Reader Code** into the search bar and click **Find**.
+
+> <img width="1916" height="923" alt="Screenshot 2025-11-16 221037" src="https://github.com/user-attachments/assets/3db495d4-4324-428a-b551-0534a20ed6d8" />
+
+
+#### 📄 Search Result UI
+
+The corresponding reader information is displayed below the search section.
+
+> <img width="1917" height="924" alt="Screenshot 2025-11-16 221046" src="https://github.com/user-attachments/assets/fd418bf2-a1d5-42d6-b419-ac2ad253a236" />
+
+
+#### 📘 Choose Returned Documents UI
+
+Shows all books currently borrowed by the reader along with their return status.
+
+> <img width="1902" height="924" alt="Screenshot 2025-11-16 221055" src="https://github.com/user-attachments/assets/e047c6a8-14f4-4c3f-b0e8-1695a9c5ed93" />
+
+
+#### ⚠️ Check for Fine UI
+
+Displays each borrowed book along with a list of predefined faults. Staff can select applicable faults if the book is damaged.
+
+> <img width="1899" height="926" alt="Screenshot 2025-11-16 224319" src="https://github.com/user-attachments/assets/79aafa57-e2f9-4db3-aa06-ec84f0b342d2" />
+
+
+#### 🧾 Invoice UI
+
+Presents detailed invoice information including:
+
+* Borrowing fees
+* Fines (if applicable)
+* Total payment amount
+
+> <img width="1901" height="925" alt="Screenshot 2025-11-16 221109" src="https://github.com/user-attachments/assets/2d33141c-7f88-4db6-b816-a849e696cfe8" />
+
+
+#### 💳 Payment UI
+
+Screen for staff to enter payment type and optional notes. Click **Submit payment** after the reader completes payment.
+
+> <img width="1901" height="927" alt="Screenshot 2025-11-16 221118" src="https://github.com/user-attachments/assets/b9824af4-947e-49ea-84b1-069d246cdfd9" />
+
+
+---
+
+📌 *End of README*
