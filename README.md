@@ -3,6 +3,13 @@
 This document provides a clear overview of the project setup and the primary features of each module.
 
 ---
+##🔄 Work flow of module: Reader return documents
+
+Here is Scenario v3 of the module:
+
+> ![Uploading Communication Diagram2.png…]()
+
+
 
 ## 🚀 How to Run the Modules
 
