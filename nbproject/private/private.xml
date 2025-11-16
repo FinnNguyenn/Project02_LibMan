@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/LoginView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/CheckForFineView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/SearchReaderView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/LibManHomeView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/CreateInvoiceView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/ConfirmPaymentView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/Staff/ChooseReturnDocumentView.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/Controller/GetListFineServlet.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/Controller/LoginServlet.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/Controller/SearchServlet.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/Controller/TransactionServlet.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/Controller/getBorrowedDocumentServlet.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/FineDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/InvoiceDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/LoanSlipDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/PaymentDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/ReaderDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/src/java/DAO/StaffDAO.java</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/index.jsp</file>
+            <file>file:/C:/Users/thanh/OneDrive/TaiLieu/NetBeansProjects/LibMan/web/META-INF/context.xml</file>
+        </group>
+    </open-files>
+</project-private>
