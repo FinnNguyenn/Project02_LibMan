@@ -7,7 +7,7 @@ This document provides a clear overview of the project setup and the primary fea
 
 Here is Scenario v3 of the module:
 
-> ![Uploading Communication Diagram2.png…]()
+> <img width="8211" height="6096" alt="Communication Diagram2" src="https://github.com/user-attachments/assets/7f7dfbd3-f1a2-4da9-b24a-132601bfce3e" />
 
 
 
